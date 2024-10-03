@@ -4,22 +4,20 @@ An Express.js and MongoDB backend application that allows users to organize thei
 
 ## Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
+- [Key Features](#🚀-key-features)
+- [Tech Stack](#🛠️-tech-stack)
+- [Getting Started](#💻-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
+- [API Endpoints](#🔧-api-endpoints)
   - [Authentication](#authentication)
   - [Contacts](#contacts)
-- [Environment Variables](#environment-variables)
-- [Project Structure](#project-structure)
-- [Best Practices](#best-practices)
-- [Contributing](#contributing)
-- [License](#license)
+- [Environment Variables](#💿-environment-variables)
+- [Best Practices](#🔐-best-practices)
+- [License](#📄-license)
 
-## Features
+## 🚀 Key Features 
 
 - User registration and authentication with JWT.
 - Secure password hashing with bcrypt.
@@ -28,7 +26,7 @@ An Express.js and MongoDB backend application that allows users to organize thei
 - Input validation and sanitization.
 - Error handling and logging.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Runtime**: Node.js
 - **Framework**: Express.js
@@ -37,7 +35,7 @@ An Express.js and MongoDB backend application that allows users to organize thei
 - **Validation**: express-validator
 - **Logging**: Winston
 
-## Getting Started
+## 💻 Getting Started
 
 ### Prerequisites
 
@@ -87,7 +85,7 @@ The server will run on http://localhost:3000.
 
 Use tools like Postman or Insomnia to interact with the API.
 
-## API Endpoints
+## 🔧 API Endpoints
 
 ### Authentication
 
@@ -165,7 +163,7 @@ All contact routes require authentication. Include the `Authorization: Bearer <t
 - Path Parameters:
   - `id`: The ID of the contact.
 
-## Environment Variables
+## 💿 Environment Variables
 
 - `PORT`: Port on which the server runs (default: 3000).
 - `MONGODB_URI`: MongoDB connection string.
@@ -173,7 +171,7 @@ All contact routes require authentication. Include the `Authorization: Bearer <t
 - `NODE_ENV`: `development` or `production`.
 
 
-## Best Practices
+## 🔐 Best Practices
 
 ### Security
 - Passwords are hashed using bcrypt.
@@ -194,3 +192,7 @@ All contact routes require authentication. Include the `Authorization: Bearer <t
 ### Scalability
 - Designed to handle multiple users.
 - Can be extended with additional features.
+
+## 📄 License
+
+This project is licensed under the MIT License.
